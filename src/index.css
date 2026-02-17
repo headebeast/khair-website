@@ -1,0 +1,193 @@
+@import './tokens.css';
+
+/* ── Reset ── */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--md-font-family);
+  font-size: var(--md-body-medium);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--md-on-background);
+  background-color: var(--md-background);
+  overflow-x: hidden;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--md-primary);
+  text-decoration: none;
+  transition: color var(--md-duration-short) var(--md-ease);
+}
+
+a:hover {
+  color: var(--md-tertiary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--md-on-surface);
+  letter-spacing: -0.01em;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  font-family: var(--md-font-family);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* ── Container ── */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Section spacing ── */
+.section {
+  padding: 96px 0;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 64px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+}
+
+/* ── Pill button base ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: var(--md-radius-full);
+  font-size: var(--md-label-medium);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 0 24px;
+  height: 40px;
+  transition: all var(--md-duration-medium) var(--md-ease);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-filled {
+  background-color: var(--md-primary);
+  color: var(--md-on-primary);
+  box-shadow: var(--md-shadow-0);
+}
+
+.btn-filled:hover {
+  background-color: rgba(103, 80, 164, 0.90);
+  box-shadow: var(--md-shadow-2);
+}
+
+.btn-tonal {
+  background-color: var(--md-secondary-container);
+  color: var(--md-on-secondary-container);
+}
+
+.btn-tonal:hover {
+  background-color: rgba(232, 222, 248, 0.85);
+  box-shadow: var(--md-shadow-1);
+}
+
+.btn-outlined {
+  background-color: transparent;
+  color: var(--md-primary);
+  border: 1px solid var(--md-outline);
+}
+
+.btn-outlined:hover {
+  background-color: rgba(103, 80, 164, 0.05);
+}
+
+.btn-lg {
+  height: 48px;
+  padding: 0 32px;
+  font-size: var(--md-body-medium);
+}
+
+.btn-sm {
+  height: 36px;
+  padding: 0 16px;
+  font-size: var(--md-label-small);
+}
+
+/* ── Blur shape utility ── */
+.blur-shape {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Screen-reader only ── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── Focus ring ── */
+:focus-visible {
+  outline: 2px solid var(--md-primary);
+  outline-offset: 2px;
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

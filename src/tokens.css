@@ -1,0 +1,73 @@
+/* ============================================
+   MATERIAL YOU (MD3) DESIGN TOKENS
+   Seed color: Purple/Violet #6750A4
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  /* ── Colors ── */
+  --md-background:              #FFFBFE;
+  --md-on-background:           #1C1B1F;
+  --md-surface:                 #FFFBFE;
+  --md-surface-container:       #F3EDF7;
+  --md-surface-container-low:   #E7E0EC;
+  --md-surface-variant:         #E7E0EC;
+  --md-on-surface:              #1C1B1F;
+  --md-on-surface-variant:      #49454F;
+  --md-outline:                 #79747E;
+  --md-outline-variant:         #CAC4D0;
+
+  --md-primary:                 #6750A4;
+  --md-on-primary:              #FFFFFF;
+  --md-primary-container:       #EADDFF;
+  --md-on-primary-container:    #21005D;
+
+  --md-secondary:               #625B71;
+  --md-on-secondary:            #FFFFFF;
+  --md-secondary-container:     #E8DEF8;
+  --md-on-secondary-container:  #1D192B;
+
+  --md-tertiary:                #7D5260;
+  --md-on-tertiary:             #FFFFFF;
+  --md-tertiary-container:      #FFD8E4;
+  --md-on-tertiary-container:   #31111D;
+
+  --md-error:                   #B3261E;
+  --md-on-error:                #FFFFFF;
+
+  /* ── Typography ── */
+  --md-font-family:             'Roboto', system-ui, sans-serif;
+
+  --md-display-large:           3.5rem;    /* 56px */
+  --md-headline-large:          3rem;      /* 48px */
+  --md-headline-medium:         2rem;      /* 32px */
+  --md-title-large:             1.5rem;    /* 24px */
+  --md-body-large:              1.25rem;   /* 20px */
+  --md-body-medium:             1rem;      /* 16px */
+  --md-label-medium:            0.875rem;  /* 14px */
+  --md-label-small:             0.75rem;   /* 12px */
+
+  /* ── Radii ── */
+  --md-radius-xs:               8px;
+  --md-radius-sm:               12px;
+  --md-radius-md:               16px;
+  --md-radius-lg:               24px;
+  --md-radius-xl:               28px;
+  --md-radius-xxl:              32px;
+  --md-radius-hero:             48px;
+  --md-radius-full:             9999px;
+
+  /* ── Shadows (elevation) ── */
+  --md-shadow-0:                none;
+  --md-shadow-1:                0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+  --md-shadow-2:                0 4px 8px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.06);
+  --md-shadow-3:                0 8px 24px rgba(0,0,0,0.10), 0 4px 8px rgba(0,0,0,0.06);
+  --md-shadow-4:                0 16px 48px rgba(0,0,0,0.12), 0 4px 12px rgba(0,0,0,0.06);
+
+  /* ── Transitions ── */
+  --md-ease:                    cubic-bezier(0.2, 0, 0, 1);
+  --md-duration-short:          200ms;
+  --md-duration-medium:         300ms;
+  --md-duration-long:           500ms;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409.97 409.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #133a26;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <g>
+          <g id="_Radial_Repeat_" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <path class="cls-1" d="M139.97,368.89h0c39.51-25.75,90.5-25.75,130.01,0h0s-65,41.08-65,41.08l-65-41.08Z"/>
+          </g>
+          <g id="_Radial_Repeat_-2" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <path class="cls-1" d="M43.12,274.93h0c46.15,9.73,82.2,45.78,91.93,91.93h0s-75.02-16.92-75.02-16.92l-16.92-75.02Z"/>
+          </g>
+          <g id="_Radial_Repeat_-3" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <path class="cls-1" d="M41.08,139.98h0c25.75,39.51,25.75,90.5,0,130.01h0S0,204.99,0,204.99l41.08-65Z"/>
+          </g>
+          <g id="_Radial_Repeat_-4" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <path class="cls-1" d="M135.05,43.12h0c-9.73,46.15-45.78,82.2-91.93,91.93h0s16.92-75.02,16.92-75.02l75.02-16.92Z"/>
+          </g>
+          <g id="_Radial_Repeat_-5" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <path class="cls-1" d="M269.99,41.08h0c-39.51,25.75-90.5,25.75-130.01,0h0S204.99,0,204.99,0l65,41.08Z"/>
+          </g>
+          <g id="_Radial_Repeat_-6" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <path class="cls-1" d="M366.84,135.05h0c-46.15-9.73-82.2-45.78-91.93-91.93h0s75.02,16.92,75.02,16.92l16.92,75.02Z"/>
+          </g>
+          <g id="_Radial_Repeat_-7" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <path class="cls-1" d="M368.89,269.99h0c-25.75-39.51-25.75-90.5,0-130.01h0s41.08,65,41.08,65l-41.08,65Z"/>
+          </g>
+          <g id="_Radial_Repeat_-8" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <path class="cls-1" d="M274.92,366.85h0c9.73-46.15,45.78-82.2,91.93-91.93h0s-16.92,75.02-16.92,75.02l-75.02,16.92Z"/>
+          </g>
+        </g>
+        <g>
+          <polygon class="cls-1" points="193.38 187.15 282.25 187.15 300.34 160.99 211.47 160.99 193.38 187.15"/>
+          <polygon class="cls-1" points="112.56 222.82 301.86 222.82 326.5 187.15 282.25 187.15 275.7 196.67 130.71 196.67 112.56 222.82"/>
+          <rect class="cls-1" x="235.78" y="121.43" width="28.05" height="28.05" transform="translate(522.22 54.59) rotate(135)"/>
+          <rect class="cls-1" x="195.48" y="233.53" width="28.05" height="28.05" transform="translate(532.7 274.46) rotate(135)"/>
+          <rect class="cls-1" x="165.07" y="233.53" width="28.05" height="28.05" transform="translate(480.79 295.96) rotate(135)"/>
+          <polygon class="cls-1" points="300.34 160.99 326.5 187.15 282.25 187.15 300.34 160.99"/>
+          <polygon class="cls-1" points="162.88 196.72 144.77 222.83 131.95 241.33 113.93 267.34 81.66 267.34 99.67 241.33 112.58 222.83 130.7 196.72 162.88 196.72"/>
+          <polygon class="cls-1" points="222.98 103.01 180.89 133.02 180.77 125.1 222.87 95.09 222.98 103.01"/>
+          <path class="cls-1" d="M108.98,175.08c-6.75,0-12.24-5.49-12.24-12.24s5.49-12.24,12.24-12.24,12.24,5.49,12.24,12.24-5.49,12.24-12.24,12.24ZM108.98,155.42c-4.1,0-7.43,3.33-7.43,7.42s3.33,7.43,7.43,7.43,7.43-3.33,7.43-7.43-3.33-7.42-7.43-7.42Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
