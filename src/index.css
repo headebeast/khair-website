@@ -119,6 +119,7 @@ button {
 .btn-filled:hover {
   background-color: rgba(103, 80, 164, 0.90);
   box-shadow: var(--md-shadow-2);
+  color: var(--md-on-primary);
 }
 
 .btn-tonal {
@@ -129,6 +130,7 @@ button {
 .btn-tonal:hover {
   background-color: rgba(232, 222, 248, 0.85);
   box-shadow: var(--md-shadow-1);
+  color: var(--md-on-secondary-container);
 }
 
 .btn-outlined {
@@ -139,6 +141,7 @@ button {
 
 .btn-outlined:hover {
   background-color: rgba(103, 80, 164, 0.05);
+  color: var(--md-primary);
 }
 
 .btn-lg {
