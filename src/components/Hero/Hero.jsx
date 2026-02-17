@@ -17,7 +17,7 @@ export default function Hero() {
                         <div className="hero-text">
                             <div className="hero-badge">
                                 <span className="hero-badge-dot" />
-                                20+ Languages Supported
+                                20 Languages Supported
                             </div>
 
                             <h1 className="hero-headline">
@@ -46,7 +46,7 @@ export default function Hero() {
                                     <span className="hero-stat-label">Dhikr Counted</span>
                                 </div>
                                 <div className="hero-stat">
-                                    <span className="hero-stat-value">20+</span>
+                                    <span className="hero-stat-value">20</span>
                                     <span className="hero-stat-label">Languages</span>
                                 </div>
                                 <div className="hero-stat">

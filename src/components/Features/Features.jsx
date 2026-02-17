@@ -33,7 +33,7 @@ const FEATURES = [
         icon: '🌍',
         iconStyle: 'rose',
         glowColor: 'var(--md-tertiary)',
-        title: '20+ Languages',
+        title: '20 Languages',
         desc: 'From Arabic to Swahili, Urdu to Japanese — use Khair in the language you\'re most comfortable with.',
     },
     {
